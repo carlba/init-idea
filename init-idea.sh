@@ -22,3 +22,8 @@ cat << 'EOF' > .idea/vcs.xml
 </project>
 EOF
 
+
+cat << 'EOF' >> .gitignore
+# IDE:s
+.idea
+EOF
